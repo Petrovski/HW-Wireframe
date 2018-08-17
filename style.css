@@ -25,10 +25,10 @@ nav {
 
 aside {
     background-color: #ebebeb;
-    text-align: center;
+    text-align: top;
     float: right;
-    margin: 20px;
-    padding: 130px;
+    margin-right: 20px;
+    padding: 165px 150px 217px 150px;
 }
 
 section {
@@ -64,4 +64,10 @@ p {
     background-color: #ebebeb;
     padding: 20px;
     color: #777;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
